@@ -1,0 +1,28 @@
+#cardTransactionsData > div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+#cardTransactionsData {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#showAllTransaction{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#cardTransactionsData button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+
